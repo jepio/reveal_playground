@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+
+
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section><section id="slide-1" class="titleslide slide level1"><h1>Slide 1</h1></section><section id="hey-there" class="slide level2">
+<h1>Hey there</h1>
+<p>I think so because:</p>
+<ul>
+<li>this is a bullet list</li>
+<li>this is my second point</li>
+<li>heck, one more!</li>
+</ul>
+<aside class="notes">
+<p>These are my notes.</p>
+<ul>
+<li>Mention the sky</li>
+<li>and the moon</li>
+</ul>
+</aside>
+</section><section id="more" class="slide level2">
+<h1>More?</h1>
+<p>If you need more than more is what you get</p>
+<aside class="notes">
+<p>If <em>this</em> <strong>works</strong> then I will be happy!</p>
+</aside>
+</section></section>
+<section><section id="slide-2" class="titleslide slide level1"><h1>Slide 2</h1></section><section id="this-is-now" class="slide level2">
+<h1>This is now</h1>
+<p>Not anymore</p>
+</section></section>
+<section><section id="slide-3" class="titleslide slide level1"><h1>Slide 3</h1></section><section id="and-more" class="slide level2">
+<h1>And more</h1>
+<p>I <strong>don't</strong> believe this!</p>
+</section></section>
+<section><section id="slide-4" class="titleslide slide level1"><h1>Slide 4</h1></section><section id="next-slide" class="slide level2">
+<h1>Next slide</h1>
+<p>Some python:</p>
+<pre class="python"><code>def fib(n):
+    a, b = 0, 1
+    i = 0
+    yield a
+    while i &lt; n:
+        i += 1
+        a, b = b, a+b
+        yield a</code></pre>
+</section><section id="c" class="slide level2">
+<h1>C++?</h1>
+<pre class="cpp"><code>int main()
+{
+    std::vector&lt;double&gt; dv = {1, 2, 3, 4};
+    for (auto v : dv)
+        std::cout &lt;&lt; v;
+    std::cout &lt;&lt; std::endl;
+}</code></pre>
+</section><section id="incremental-code" class="slide level2">
+<h1>Incremental code</h1>
+<iframe data-autoplay="true" width="560" height="315" src="https://www.youtube.com/embed/GOsfxC6Eyu0?start=33" frameborder="0" allowfullscreen class="stretch">
+</iframe>
+</section></section>
+<section><section id="thank-you" class="titleslide slide level1"><h1>Thank you!</h1></section></section>
+    </div>
+  </div>
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        slideNumber: true,
+        history: true,
+        center: true,
+        theme: 'black', // available themes are in /css/theme
+        transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+      </body>
+</html>
