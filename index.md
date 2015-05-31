@@ -64,8 +64,33 @@ int main()
 }
 ```
 
-## Incremental code
+## Embed Youtube!
+
 <iframe data-autoplay="true" width="560" height="315"
 src="https://www.youtube.com/embed/GOsfxC6Eyu0?start=33" frameborder="0" allowfullscreen class="stretch"></iframe>
+
+# Some more advanced features {data-background="#ffa500"}
+
+## Pauses {data-background="#dddddd"}
+
+. . .
+
+I
+
+. . .
+
+do not think
+
+. . .
+
+this means
+
+. . .
+
+what you think it means
+
+---------------------------
+
+![](./cat.jpg)
 
 # Thank you!
